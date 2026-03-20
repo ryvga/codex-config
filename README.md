@@ -124,6 +124,7 @@ The default install mode is copy/sync render, not symlinks:
 - keeps runtime state in `~/.codex`
 - avoids turning `~/.codex` into a git repo
 - allows a clean managed-files manifest for safe pruning
+- merges repo-managed config keys with live machine-local keys instead of blindly replacing `~/.codex/config.toml`
 
 See [docs/install-sync.md](/home/ryuga/codex-config/docs/install-sync.md).
 
