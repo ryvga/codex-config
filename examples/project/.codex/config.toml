@@ -1,0 +1,7 @@
+model_reasoning_effort = "high"
+review_model = "gpt-5.4"
+
+[agents]
+max_threads = 4
+max_depth = 1
+
