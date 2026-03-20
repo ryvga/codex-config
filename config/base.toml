@@ -1,0 +1,20 @@
+model = "gpt-5.4"
+model_reasoning_effort = "medium"
+plan_mode_reasoning_effort = "high"
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+web_search = "cached"
+personality = "pragmatic"
+check_for_update_on_startup = true
+
+[agents]
+max_threads = 6
+max_depth = 1
+job_max_runtime_seconds = 1800
+
+[features]
+multi_agent = true
+
+[notice]
+hide_full_access_warning = true
+

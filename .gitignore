@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+config/local.toml
+build/.sync-manifest.json
+

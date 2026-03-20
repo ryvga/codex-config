@@ -1,0 +1,17 @@
+# Copy this file to config/local.toml and edit per machine.
+
+[projects."/absolute/path/to/a/trusted/repo"]
+trust_level = "trusted"
+
+[projects."/absolute/path/to/an/untrusted/repo"]
+trust_level = "untrusted"
+
+#[mcp_servers.playwright]
+#command = "npx"
+#args = ["@playwright/mcp@latest"]
+
+#[skills]
+#[[skills.config]]
+#path = "/home/your-user/.codex/skills/codex-subagent-builder"
+#enabled = true
+

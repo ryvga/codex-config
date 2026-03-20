@@ -1,0 +1,14 @@
+# Example project-scoped Codex overrides.
+# This file belongs in .codex/config.toml inside a trusted repository.
+
+model_reasoning_effort = "high"
+review_model = "gpt-5.4"
+
+[agents]
+max_threads = 4
+max_depth = 1
+
+#[mcp_servers.docs]
+#command = "uvx"
+#args = ["your-project-docs-mcp"]
+
